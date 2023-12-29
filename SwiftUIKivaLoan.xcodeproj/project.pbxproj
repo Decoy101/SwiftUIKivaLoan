@@ -14,6 +14,9 @@
 		67BB38C82B3ECD5E00003669 /* SwiftUIKivaLoanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB38C72B3ECD5E00003669 /* SwiftUIKivaLoanTests.swift */; };
 		67BB38D22B3ECD5E00003669 /* SwiftUIKivaLoanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB38D12B3ECD5E00003669 /* SwiftUIKivaLoanUITests.swift */; };
 		67BB38D42B3ECD5E00003669 /* SwiftUIKivaLoanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB38D32B3ECD5E00003669 /* SwiftUIKivaLoanUITestsLaunchTests.swift */; };
+		67BB38E12B3ECD7A00003669 /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB38E02B3ECD7A00003669 /* Loan.swift */; };
+		67BB38E32B3EDEBF00003669 /* LoanStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB38E22B3EDEBF00003669 /* LoanStore.swift */; };
+		67BB38E52B3EE17400003669 /* LoanCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB38E42B3EE17400003669 /* LoanCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		67BB38CD2B3ECD5E00003669 /* SwiftUIKivaLoanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIKivaLoanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67BB38D12B3ECD5E00003669 /* SwiftUIKivaLoanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIKivaLoanUITests.swift; sourceTree = "<group>"; };
 		67BB38D32B3ECD5E00003669 /* SwiftUIKivaLoanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIKivaLoanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		67BB38E02B3ECD7A00003669 /* Loan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
+		67BB38E22B3EDEBF00003669 /* LoanStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanStore.swift; sourceTree = "<group>"; };
+		67BB38E42B3EE17400003669 /* LoanCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				67BB38B82B3ECD5C00003669 /* ContentView.swift */,
 				67BB38BA2B3ECD5E00003669 /* Assets.xcassets */,
 				67BB38BC2B3ECD5E00003669 /* Preview Content */,
+				67BB38E02B3ECD7A00003669 /* Loan.swift */,
+				67BB38E22B3EDEBF00003669 /* LoanStore.swift */,
+				67BB38E42B3EE17400003669 /* LoanCellView.swift */,
 			);
 			path = SwiftUIKivaLoan;
 			sourceTree = "<group>";
@@ -258,6 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				67BB38B92B3ECD5C00003669 /* ContentView.swift in Sources */,
+				67BB38E32B3EDEBF00003669 /* LoanStore.swift in Sources */,
+				67BB38E52B3EE17400003669 /* LoanCellView.swift in Sources */,
+				67BB38E12B3ECD7A00003669 /* Loan.swift in Sources */,
 				67BB38B72B3ECD5C00003669 /* SwiftUIKivaLoanApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
